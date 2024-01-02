@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hex Appeal</title>
+  <link rel="icon" type="image/x-icon" href="./bacterium-solid.svg">
+  <meta charset="utf-8" />
+  <script src="./fxhash.js"></script>
+  
+  <!-- <link rel="stylesheet" href="./styles.css" /> -->
+  <style>
+    body {
+      /* override the default margin of the html body */
+      margin: 0;
+      background-color: #222;
+    }
+
+    #canvasContainer {
+      height: 100vh;
+      width: 100vw;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background-color: #222;
+    }
+
+    #myCanvas {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="canvasContainer">
+    <canvas id="myCanvas" width="3000" height="2000"></canvas>
+  </div>
+  <script src="./nodeAndEdge.js"></script>
+  <script src="./queue.js"></script>
+  <script src="./graph.js"></script>
+  <script src="./hexagon.js"></script>
+  <script src="./utils.js"></script>
+  <script src="./main.js"></script>
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
