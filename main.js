@@ -106,13 +106,15 @@ if($fx.rand() > .38){
     paletteDict = secondaryPalettes
 }
 
-paletteItem = //secondaryPalettes.splice(Math.floor($fx.rand() * secondaryPalettes.length), 1)[0]
+paletteItem = paletteDict.splice(Math.floor($fx.rand() * paletteDict.length), 1)[0]
+/*
 {
     palette: //["#000000"],
     //[ "#fffbe6", "#F197A3", "#FFB037", "#4152A4", "#0B815E", "#F3C913", "#ED2B2B", "#5E59C0", "#FFA9DA"],
     ["#007f5f", "#2b9348", "#55a630", "#80b918", "#aacc00", "#bfd200", "#d4d700", "#0077e1", "#0E426A", "#fffbe6", "#EAE0CB", "#219ebc", "#FFA9DA", "#FED7D7", "#5DB7DE","#f72585","#b5179e","#7209b7","#560bad","#480ca8","#3f37c9","#4361ee","#4895ef","#4cc9f0"],
      backgroundColors: ["#007f5f", "#2b9348", "#55a630", "#80b918", "#aacc00", "#bfd200", "#d4d700", "#0077e1", "#0E426A", "#fffbe6", "#EAE0CB", "#219ebc", "#FFA9DA", "#FED7D7", "#5DB7DE","#f72585","#b5179e","#7209b7","#560bad","#480ca8","#3f37c9","#4361ee","#4895ef","#4cc9f0"]
     }
+    */
 
 //paletteItem = paletteDict[Math.floor($fx.rand() * paletteDict.length)]
 palette = paletteItem.palette
